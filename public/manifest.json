@@ -1,16 +1,9 @@
 {
-  "name": "OVX India",
-  "short_name": "OVX",
-  "description": "OVX India PWA",
+  "name": "Assignment",
+  "short_name": "Assignment",
+  "description": "Assignment",
   "theme_color": "#663399",
   "background_color": "#663399",
-  "icons": [
-    {
-      "src": "favicon.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
