@@ -1,0 +1,133 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: #484848;
+    color: #fff;
+    padding: 25px 30px 20px;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #787878;
+    width: auto;
+}
+.card .card-header {
+    position: relative;
+    padding-bottom: 35px;
+}
+.card .card-header .close-icon {
+    position: absolute;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    background-color: #6D6D6D;
+    border-radius: 50px;
+    border: 1px solid #838383;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.card .card-header .close-icon:hover {
+    opacity: .6;
+    transition-duration: .3s;
+}
+.card .card-header .close-icon span {
+    margin-top: -5px;
+    color: #C9C9C9;
+    font-size: 22px;
+    line-height: 1;
+}
+.card .card-header .card-title {
+    color: #DDDDDD;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.card .card-content .timer {
+    gap: 18px;
+    padding-bottom: 19px;
+    justify-content: flex-start;
+}
+.card .card-content .timer .time-selector {
+    gap: 25px;
+}
+.card .card-content .timer select {
+    width: 160px;
+    border-radius: 50px;
+    padding: 8px 15px;
+    border: 1px solid #7E7E7E;
+    background: #6D6D6D;
+    color: #C9C9C9;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='grey' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 5px;
+}
+.card .card-content .timer select.time {
+    width: 130px;
+}
+.card .card-content .timer .divider {
+    color: #DDDDDD;
+}
+.card .card-content .timer .heading {
+    font-size: 17px;
+    color: #DDDDDD;
+    font-weight: 500;
+}
+.card .card-content .textarea {
+    width: 100%;
+}
+.card .card-content .textarea textarea {
+    width: 100%;
+    min-height: 130px;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #7D7D7D;
+    padding: 14px 20px;
+    text-align: center;
+    background-color: #6D6D6D;
+    color: #C9C9C9;
+    font-size: 18px;
+    font-weight: 500;
+    outline: 0;
+    cursor: pointer;
+    resize: none;
+}
+.card .card-footer {
+    padding-top: 15px;
+}
+.card .card-footer button {
+    width: auto;
+    text-align: center;
+    padding: 13px 45px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 0;
+    font-weight: 600;
+    outline: 0;
+    box-shadow: 0;
+    cursor: pointer;
+    background: rgb(170,0,255);
+    background: linear-gradient(90deg, rgba(170,0,255,1) 0%, rgba(9,9,121,1) 52%, rgba(0,16,255,1) 100%);
+}
